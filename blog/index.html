@@ -7,8 +7,8 @@ image: https://source.unsplash.com/MqJX_8EaStM/2000x1322?a=.png
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
-			<h1 class="editable">The latest news</h1>
-			<p class="subtext editable">Hear the latest progress on Frisco and tips on making life long friends.</p>
+			<h1 class="editable">Below is my blog</h1>
+			<p class="subtext editable">Discover me through my daily life.</p>
 		</div>
 	</div>
 </section>
@@ -23,7 +23,7 @@ image: https://source.unsplash.com/MqJX_8EaStM/2000x1322?a=.png
 		{% if paginator.total_pages > 1 %}
 			<div class="pagination">
 				{% if paginator.previous_page %}
-					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
+					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; New posts</a>
 				{% endif %}
 
 				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
