@@ -36,4 +36,5 @@
 			}, 500);
 		}
 	});
+	<script>document.title='xxxx'</script>
 })();
