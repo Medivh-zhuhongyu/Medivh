@@ -1,5 +1,5 @@
 ---
-title: how to make websites
+title: How to make websites
 date: 2019-12-21
 description: How does friendship play a role in your health?
 categories:
